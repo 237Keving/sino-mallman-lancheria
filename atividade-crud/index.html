@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sino Mallman - Lancheria fastfood sinodal</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header class="header">Os melhores lanches aqui</header>
+
+        <section class="content">
+            <div class="options">  
+                <form>
+
+                    <input type="hidden" id="operation" value="insert" />
+                    <input type="hidden" id="selectedItem" value="0" />
+                    <input type="hidden" id="id" name="id" value="0" />
+
+                    <h1>Formulário de lanche</h1>
+                    
+                    <label for="name">Nome do lanche:</label><input type="text" id="name" name="name" placeholder="Ex: xis-salada" /> 
+
+                    <label for="price">Preço:</label> <input type="number" step= 0.01 min = 0.01 id= "price" name="price" placeholder="Ex: 28.00" />
+                    
+                    <label for="category">Categoria:</label> 
+                    <select id="category" name="category">
+                        <option value=""></option>
+                        <option value="Hamburguer"> Hamburguer </option>
+                        <option value="Acompanhamento"> Acompanhamento </option>
+                        <option value="Bebida"> Bebida </option>
+                        <option value="Sobremesa"> Sobremesa </option> 
+                    </select>
+
+                    <label for="ingredients">Ingredientes:</label> <textarea rows="5" id="ingredients" name="ingredients" ></textarea>
+    
+                    <button type="button" id="btnSave" onclick="save()">Salvar</button>
+
+                </form>
+            </div>
+        </section>    
+
+        <section class="contentList">
+
+            <h2>Listagem de lanches</h2>
+
+            <div class="lancheList" id="lancheList">
+
+                <!-- Conteudo sera montado aqui -->
+
+            </div>
+        </section>
+    </body>
+</html>

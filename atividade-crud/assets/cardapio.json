@@ -1,0 +1,44 @@
+[
+    {
+        "name": "xis salada",
+        "price": 30.00,
+        "categoria": "Hamburguer",
+        "ingredientes": "Pão, carne, alface, tomate, queijo e maionese"
+    },
+    {
+        "name": "xis frango",
+        "price": 28.00,
+        "categoria": "Hamburguer",
+        "ingredientes": "Pão, frango, molho especial, queijo e maionese"
+    },
+    {
+        "name": "xis bacon",
+        "price": 34.00,
+        "categoria": "Hamburguer",
+        "ingredientes": "Pão, carne, bacon, alface, tomate, queijo e maionese"
+    },
+    {
+        "name": "xis pressão alta",
+        "price": 40.00,
+        "categoria": "Hamburguer",
+        "ingredientes": "Pão, 3 carnes, bacon, queijo cheddar, onion rings, maionese e molho especial"
+    },
+    {
+        "name": "Maionese verde",
+        "price": 1,
+        "categoria": "Acompanhamento",
+        "ingredientes": "2 sache de maionese verde"
+    },
+    {
+        "name": "batata frita",
+        "price": 6,
+        "categoria": "Acompanhamento",
+        "ingredientes": "batata"
+    },
+    {
+        "name": "coca-cola 2L",
+        "price": 6,
+        "categoria": "Bebida",
+        "ingredientes": "2 litrão de coca-cola"
+    }
+]
